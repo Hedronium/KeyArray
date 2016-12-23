@@ -1,0 +1,20 @@
+{
+    "name": "hedronium/key-array",
+    "description": "Library that allows you tu use arrays as keys for arrays!",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Omran Jamal",
+            "email": "o.jamal97@gmail.com"
+        }
+    ],
+    "require": {
+        "hedronium/generator-nest": "^1.0"
+    },
+	"autoload": {
+		"psr-4": {
+			"Hedronium\\KeyArray\\": "./src/"
+		}
+	}
+}
